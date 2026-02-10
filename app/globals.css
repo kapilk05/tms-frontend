@@ -4,7 +4,12 @@
 
 @layer base {
   body {
-    @apply bg-gray-50 text-gray-900;
+    @apply bg-gradient-to-br from-gray-100 via-gray-50 to-white text-gray-900 min-h-screen;
+  }
+  
+  /* Dashboard background override */
+  .dashboard-layout {
+    @apply bg-gradient-to-br from-gray-50 via-gray-100 to-gray-50;
   }
   
   h1 {
